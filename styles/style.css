@@ -161,6 +161,10 @@ input[type='checkbox']:focus-visible ~ .search-form__label-text {
   text-decoration: underline;
 }
 
+input[type='checkbox']:hover ~ .search-form__label-text {
+  text-decoration: underline;
+}
+
 .button {
   cursor: pointer;
   margin: auto 0 0;
@@ -236,6 +240,12 @@ input[type='checkbox']:focus-visible ~ .search-form__label-text {
 
 .content__video-card:active {
   background-color: #545050;
+}
+
+.content__video-card:hover .content__video-card-title, 
+.content__video-card:hover .content__video-card-description
+{
+  text-decoration: underline;
 }
 
 .content__video-card-thumbnail {
